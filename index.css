@@ -1,0 +1,258 @@
+@media screen and (min-width:767px){
+    #small-black{
+        height:45px;
+        background-color:black;
+        z-index:102;
+        margin:0 auto;
+    }
+    .black1{
+        margin-right:110px;
+        float:right;
+        color:white;
+        padding-top:10px;
+    }
+    .bblack1{
+        height:30px;
+        float:left;
+        margin-right:10px;
+    }
+    .black1 span{
+        margin-right:20px;
+    }
+    .black1 a{
+        margin-right:20px;
+        color:white;
+    }
+    #big-header{
+        position:absolute;
+        top:15%;
+        left:15%;
+        width:50%;
+        height:30%;
+        z-index:99;
+        color:white;
+    }
+    #big-header>.phone-line{
+        display:none;
+    }
+    .pc-txt:first-child{
+        display:inline-block;
+        border-top:1px solid white;
+    }
+    .pc-txt:last-child{
+        display:inline-block;
+        border-bottom:1px solid white;
+    }
+    #fast{
+        display:none;
+    }
+}
+
+#big-white{
+    position:fixed;
+    top:45px;
+    width:100%;
+    background-color:#e1e1e1;
+    height:77px;
+    z-index:100;
+    margin:0 auto;
+}
+
+@media screen and (max-width:767px) {
+    #small-black{
+        display:none;
+    }
+    #big-header{
+        position:absolute;
+        top:10%;
+        left:13%;
+        width:50%;
+        height:30%;
+        z-index:99;
+        color:white;
+    }
+    #big-header>h3{
+        font-size:13px;
+    }
+    #big-header>.pc-line{
+        display:none;
+    }
+    #big-header>.phone-line>p{
+        font-size:10px;
+        line-height:10px;
+        margin-top:3px;
+        margin-bottom:3px;
+    }
+    #big-white{
+        top:0;
+    }
+    #fast{
+        position:absolute;
+        border-radius:3px;
+        top:30%;
+        right:17%;
+        width:15%;
+        height:50%;
+        background-color:#e8420a;
+        color:white;
+        font-size:40%;
+        border:0;
+    }
+}
+
+body{
+    overflow-x:hidden;
+}
+
+#container1{
+    padding-top:10px;
+    margin-top:0px;
+    z-index:100;
+}
+.navbar{
+    background-color:#e1e1e1;
+    border-color:#e1e1e1;
+    z-index:100;
+    position:relative;
+}
+#four{
+    display:inline-flex;
+    justify-content: space-around;
+}
+#four>li>a{
+    color:black;
+}
+.large{
+    background-color: #dddddd;
+    height:2874px;
+    padding-top:30px;
+    margin:0 auto;
+}
+.item{
+    text-align:center;
+}
+#generic{
+    margin-top:102px;
+    position: relative;
+}
+
+@media screen and (max-width:767px){
+    #generic{
+        margin-top:57px;
+        position: relative;
+    }
+}
+
+#big-search{
+    border-radius: 5px;
+    border:5px solid black;
+    border-color: #3d1e1f;
+    padding:0;
+    width:40%;
+    height:10%;
+    margin-left:10%;
+  }
+  #big-search_left{
+    width:25%;
+    height:100%;
+    background-color: #d3d3d8;
+    float:left;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  #big-search input{
+    float:left;
+    border:none;
+    width:55%;
+    height:100%;
+    color:black;
+  }
+  #big-search_right{
+    width:20%;
+    height:100%;
+    background-color: #cb5405;
+    float:left;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  #big-search img{
+    width:15%;
+    height:40%;
+    margin:0 auto;
+  }
+  #big-search button{
+    width:100%;
+    height:100%;
+    background-color: #cb5405;
+    border:none;
+  }
+  #big-search_left span{
+    color:black;
+    margin-left:5px;
+  }
+
+@media screen and (max-width:767px) {
+    #big-search{
+        margin-left:90px;
+        font-size:7px;
+        height:14%;
+    }
+}
+
+#container2{
+    width:1200px;
+    height:350px;
+    background-color:#153166;
+    border-radius:4px;
+}
+
+#generic2{
+    padding:0;
+}
+
+#car-detail{
+    margin:0 auto;
+    text-align:center;
+}
+
+#car-detail>img{
+    margin-top:20%;
+}
+
+#car-text{
+    margin-top:5%;
+    text-align:center;
+    font-size:18px;
+}
+
+#car-text>p{
+    color:white;
+}
+
+#detail{
+    margin-top:10%;
+    border:white solid 1px;
+    color:white;
+    background-color:rgba(255,255,255,0);
+    width:50%;
+    height:15%;
+    border-radius:2%;
+}
+
+@media screen and (min-width: 768px) and (max-width:1200px ){
+    #container2{
+        display:none;
+    }
+    #container3{
+        width:668px;
+        height:350px;
+        background-color:white;
+        border-radius:4px;
+    }
+}
