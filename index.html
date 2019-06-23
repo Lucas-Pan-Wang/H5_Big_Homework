@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="index.css" />
 </head>
-<body>
+<body data-spy="scroll">
     <div id="small-black" class="navbar-fixed-top">
         <header>
             <div class="black1">
@@ -36,10 +36,10 @@
                 </div>
                 <div class="collapse navbar-collapse" id="col-1">
                     <ul class="nav navbar-nav col-md-6" id="four">
-                        <li><a href="#">首页</a></li>
-                        <li><a href="#">热门路线</a></li>
-                        <li><a href="#">签证路线</a></li>
-                        <li><a href="#">使命愿景</a></li>
+                        <li class="active"><a href="#">首页</a></li>
+                        <li><a href="#flag1">热门路线</a></li>
+                        <li><a href="#flag2">签证路线</a></li>
+                        <li><a href="#flag3">使命愿景</a></li>
                     </ul>
                 </div>
             </nav> 
@@ -105,7 +105,7 @@
                     </a>
                 </div>
                 <div class="col-md-3" id="car-detail">
-                    <img src="img/car.png" alt=""/>
+                    <img src="img/car.png" id="special" alt=""/>
                     <div id="car-text">
                         <p>车辆接送</p>
                         <button id="detail">查看详情</button>
@@ -114,8 +114,238 @@
             </div>
         </div>
         <div class="container" id="container3">
-
+            <img src="img/carH.png" alt=""/>
+            <div>
+                <h3>机场接送 省心省力</h3>
+                <p>提供上海、苏州、无锡各市</p>
+                <p>往返机场、码头接送服务、更有包车服务</p>
+            </div>
+            <button>查看详情</button>
         </div>
+        <div id="flag1"></div>
+        <div class="container" id="remenluxian">  
+            <h1 class="text-center">热门路线</h1>
+            <p  class="text-center">Popular tourist routes</p>
+        </div>
+        <div class="container">  
+            <h3 class="phone_2 text-left">热门路线</h3>
+        </div>
+        <div class="container" id="xian_1">  
+            <div style="border-bottom:1px solid gray;margin-bottom:20px;"></div>
+        </div>
+
+        <div class="container">  
+                <div class="row">
+                <div class="col-md-6" id="col_left" style="padding-left:15px;padding-right:5px;">
+                <img src="img/hot1.jpg" alt="">
+                <div class="show1">
+                    <p>海南三亚5天4晚，纯玩、4晚红树林度假王国</p>
+                    <p>¥<span>2580</span>/人起</p>
+                </div>
+                <img src="img/hot2.jpg" alt="">
+                <div class="show1">
+                    <p>德法意瑞欧洲4日游，ABCD路线由您任选</p>
+                    <p>¥<span>7999</span>/人起</p>
+                    </div>
+                </div>
+                <div class="col-md-6" id="col_right" style="padding-right:15px;padding-left:5px;" id="remen_2">
+                    <img src="img/hot3.jpg" alt="">
+                    <div class="show2">
+                        <p>曼谷+芭提雅 国际五星，赠送2220大礼包，绝无自费</p>
+                        <p>¥<span>2799</span>/人起</p>
+                    </div>
+                    <img src="img/hot4.jpg" alt="">
+                    <div class="show3">
+                        <p>日本本州游 樱花、寿司、温泉、美食</p>
+                        <p>¥<span>5399</span>/人起</p>
+                    </div>
+                    <img src="img/hot5.jpg" alt="">
+                    <div class="show4">
+                        <p>斯里兰卡7天6晚全景游   保证入住2晚香格里拉</p>
+                        <p>¥<span>7999</span>/人起</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        <div id="flag2"></div>
+        <div class="container" id="visa1">  
+            <h1 class="text-center">签证推荐</h1>
+            <p  class="text-center">Visa recommendation</p>
+            <p class="text-center">热门：日本 马来西亚 美国 意大利 加拿大 新加坡</span>
+        </div>
+        <div class="container"> 
+            <button class="button1" id="button11">查看更多 ></button>
+        </div>
+        <div id="back"></div>
+
+        <div class="container">  
+            <h3 class="phone_2 text-left">签证推荐</h3>
+        </div>
+        <div class="container" id="xian_2">  
+                <div style="border-bottom:1px solid gray;margin-bottom:20px;"></div>
+        </div>
+
+        <div class="container">  
+            <div class="row">
+            <div class="col-md-4 col-xs-5" id="col_left_999" style="padding-left:15px;padding-right:5px;">
+                <img src="img/visa1.jpg" alt="">
+            </div>
+            <div class="col-md-4  col-xs-7" id="col_left_3">
+                <img src="img/visa2.jpg" alt="" id="visa2">
+                <img src="img/visa3.jpg" alt="" id="visa3">
+            </div>
+            <div class="col-md-4" id="col_left_2" style="padding-right:15px;padding-left:5px;">
+                <img src="img/visa4.jpg" alt="">
+                <img src="img/visa5.jpg" alt="">
+            </div>
+            </div>
+        </div>
+        <div id="flag3"></div>
+        <div class="container"> 
+        <button class="button1" id="pp">查看更多 ></button>
+        </div>
+        <div id="back"></div>
+        <div class="container">  
+            <h3 class="phone_2 text-left">使命与愿望：<span>让旅游回归本质</span></h3>
+        </div>
+        <div class="container" id="xian_2">  
+            <div style="border-bottom:1px solid gray;margin-bottom:20px;"></div>
+        </div>
+
+        <img src="img/Bbanner.jpg" alt="" style="width:100%;" id="pc_long">
+
+        <div class="container" id="PC_2">  
+        <h1 class="text-center">使命与愿望</h1>
+        <p  class="text-center"style="margin-bottom:20px">让旅游回归本质 体验纯粹旅游</p>
+        </div>
+
+    <div class="big-world">
+        <div class="container">  
+            <div class="row">
+            <div class="col-md-5">
+                <img src="img/mission1.jpg" alt="">
+            </div>
+            <div class="col-md-7" id="cc">
+                <p style="font-size: 25px;margin-bottom:25px; text-align:center;">服务理念及优势</p>
+                <p style="text-align: left;">“英华逸游”通过重新打造旅游全程中的产品线路设计、出行交通方案、陪游向导服务、增值关怀项目等，为客户提供高品质的旅游体验。英华逸游在泰国、欧洲、等多个国家拥有丰富的旅游资源，同时致力于给用户提供性价比高的产品和服务。</p>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                <img src="img/mission2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <table id="last">
+            <tr>
+                <td>
+                <div id="for-table"> 
+                    <img src="img/icon1.png" alt="">
+                    <p>旅游达人精心设计、基于口碑反复打磨</p>
+                    <p>全网最好，敢跟任何产品比</p>
+                </div>
+                </td>
+                <td>
+                <div  id="for-table">
+                    <img src="img/icon2.png" alt="">
+                    <p>不推自费，</p>
+                    <p>不进垃圾购物站和伪景点</p>
+                </div>
+                </td>
+                <td>
+                    <div  id="for-table">
+                    <img src="img/icon3.png" alt="">
+                    <p>独立成团不散拼，</p>
+                    <p>只跟亲朋好友一起玩，每天发团</p>
+                    </div>
+                </td>
+            </tr>
+            </table>
+        </div>
+        <div class="container">
+            <ul id="last_2">
+            <h1 class="text-center" style="margin-bottom:5%">--服务优势--</h1>
+                <li class="l1">
+                <img src="img/icon11.png" alt="" class="lll">
+                <p class="text-left">旅游达人精心设计、基于口碑反复打磨， 告别人山人海鸡肋景点。 全网最好，敢跟任何产品比合作伙伴</p>
+                </li>
+                <div class="container" id="xian_3">  
+                    <div style="border-bottom:1px solid gray;margin-bottom:20px;"></div>
+            </div>
+                <li class="l1">
+                    <img src="img/icon22.png" alt="" class="lll">
+                    <p class="text-left" style="padding-top:5%">不推自费，</p>
+                    <p class="text-left">不进垃圾购物站和伪景点</p>
+                </li>
+                <div class="container" id="xian_3">  
+                    <div style="border-bottom:1px solid gray;margin-bottom:20px;"></div>
+            </div>
+                <li class="l1">
+                    <img src="img/icon33.png" alt="" class="lll">
+                    <p class="text-left"  style="padding-top:5%">独立成团不散拼，</p>
+                    <p class="text-left">只跟亲朋好友一起玩，每天发团</p>
+                </li>
+                <div class="container" id="xian_3">  
+                    <div style="border-bottom:1px solid gray;margin-bottom:20px;"></div>
+            </div>
+            </ul>
+        </div>
+    </div>
+    <div  id="bot" style="background-color:black">
+        <div class="container" id="PC_bottom">
+          <ul class="first-black">
+            <li class="first-black1">合作伙伴</li>
+            <li class="first-black2">热门位置</li>
+            <li class="first-black3">主题路线</li>
+            <li class="first-black4">友情链接</li>
+          </ul>
+          <ul class="b2">
+            <li>
+              <img src="img/ctrip.jpg" alt="">
+              携程网
+            </li>
+            <li>
+                <img src="img/fly-pig.jpg" alt="">
+                阿里飞猪
+            </li>
+            <li>
+                <img src="img/camel.jpg" alt="">
+                去哪儿
+            </li>
+            <li>   
+                <img src="img/suzhou.jpg" alt="">
+                <br>
+                苏州旅游局
+            </li>
+          </ul>
+          <ul class="b3">
+              <li>
+                  韩国&nbsp;&nbsp;&nbsp;日本&nbsp;&nbsp;&nbsp;菲律宾&nbsp;&nbsp;&nbsp;越南&nbsp;&nbsp;&nbsp;老挝&nbsp;&nbsp;&nbsp;柬埔寨&nbsp;&nbsp;&nbsp;泰国&nbsp;&nbsp;&nbsp;马来西亚&nbsp;&nbsp;&nbsp;新加坡&nbsp;&nbsp;&nbsp;印度尼西亚&nbsp;&nbsp;&nbsp;印度&nbsp;&nbsp;&nbsp;斯里兰卡&nbsp;&nbsp;&nbsp;土耳其&nbsp;&nbsp;&nbsp;阿联酋&nbsp;&nbsp;&nbsp;西班牙&nbsp;&nbsp;&nbsp;意大利&nbsp;&nbsp;&nbsp;希腊&nbsp;&nbsp;&nbsp;法国&nbsp;&nbsp;&nbsp;比利时&nbsp;&nbsp;&nbsp;荷兰
+              </li>
+              <li>
+                  英国&nbsp;&nbsp;&nbsp;&nbsp;瑞士&nbsp;&nbsp;&nbsp;&nbsp;奥地利&nbsp;&nbsp;&nbsp;&nbsp;德国&nbsp;&nbsp;&nbsp;&nbsp;匈牙利&nbsp;&nbsp;&nbsp;&nbsp;俄罗斯&nbsp;&nbsp;&nbsp;&nbsp;捷克&nbsp;&nbsp;&nbsp;&nbsp;芬兰&nbsp;&nbsp;&nbsp;&nbsp;葡萄牙&nbsp;&nbsp;&nbsp;&nbsp;冰岛&nbsp;&nbsp;&nbsp;&nbsp;美国&nbsp;&nbsp;&nbsp;&nbsp;加拿大&nbsp;&nbsp;&nbsp;&nbsp;巴西&nbsp;&nbsp;&nbsp;&nbsp;阿根廷&nbsp;&nbsp;&nbsp;&nbsp;澳大利亚&nbsp;&nbsp;&nbsp;&nbsp;新西兰
+              </li>
+              <li>
+                海岛度假&nbsp;&nbsp;&nbsp;历史文化&nbsp;&nbsp;&nbsp;探索冒险&nbsp;&nbsp;&nbsp;美食购物&nbsp;&nbsp;&nbsp;都市生活&nbsp;&nbsp;&nbsp;海外游学&nbsp;&nbsp;&nbsp;邮轮度假&nbsp;&nbsp;&nbsp;蜜月摄影&nbsp;&nbsp;&nbsp;亲子乐园
+              </li>
+              <li>
+                  马蜂窝&nbsp;&nbsp;&nbsp;穷游&nbsp;&nbsp;&nbsp;booking&nbsp;&nbsp;&nbsp;苏州旅游局&nbsp;&nbsp;&nbsp;驴友网&nbsp;&nbsp;&nbsp;吾爱全球签证中心&nbsp;&nbsp;&nbsp;酒店团购&nbsp;&nbsp;&nbsp;携程旅游攻略&nbsp;&nbsp;&nbsp;天巡职航在线&nbsp;&nbsp;&nbsp;满天飞旅游网&nbsp;&nbsp;&nbsp;中国旅游网&nbsp;&nbsp;&nbsp;澳乐网&nbsp;&nbsp;&nbsp;背包兔旅游行程      
+              </li>
+              <li>
+                  出境旅游&nbsp;&nbsp;&nbsp;国际酒店&nbsp;&nbsp;&nbsp;广州旅行社&nbsp;&nbsp;&nbsp;出境旅游&nbsp;&nbsp;&nbsp;517旅行&nbsp;&nbsp;&nbsp;花生游&nbsp;&nbsp;&nbsp;家园网&nbsp;&nbsp;&nbsp;海外婚礼
+              </li>
+          </ul>
+          <p>苏ICP备14019690号、2014-2017 @苏州英华国际旅游有限公司 版权所有</p>
+        </div> 
+      </div>
+    <div class="container" id="phone_bottom">
+        <p class="text-center"> 苏ICP备14019690号、2014-2017</p>
+        <p class="text-center"> @苏州英华国际旅游有限公司 版权所有</p>
+        <p class="text-center">技术支持  杭州联橙科技</p>
+      </div>
+      
     </div>
     <script src="js/jQuery.js"></script>
     <script src="js/bootstrap.min.js"></script>
